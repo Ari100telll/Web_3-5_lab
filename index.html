@@ -1,0 +1,52 @@
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/conect.css">
+    <title>Children Events</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            Children Events
+        </div>
+        <nav class="nav">
+            <a href="http://127.0.0.1:5500" class="nav_a active">My Animals</a>
+            <a href="http://127.0.0.1:5500/Create.html" class="nav_a ">Create Animal</a>
+        </nav>
+        <form action="" class="search" id="search_bar">
+            <input type="text" class="search_bar" placeholder="Enter name">
+            <input type="submit" class="search_button" value="Search">
+            <input type="button" class="search_clean" id="search_clean" value="Clean">
+        </form>
+    </header>
+    <section class="section_1">
+        <div class="info_column">
+            <h1 class="left_title">
+                Manage events
+            </h1>
+            <div class="section_1_sort">
+                <p class="section_1_sort_text">Sort by the most expensive event</p>
+                <label class="switch">
+                    <input type="checkbox" id="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="section_1_count">
+                <div class="section_1_count_text">Count total price:</div>
+                <button class="section_1_count_button" id="count_button">Count</button>
+                <div class="total_text">Total expensive: 0</div>
+            </div>
+        </div>
+        <div class="content" id="content">
+        </div>
+    </section>
+    <script src="./Scripts/main.js" type="module"></script>
+
+</body>
+
+</html>

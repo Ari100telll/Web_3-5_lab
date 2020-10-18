@@ -1,0 +1,28 @@
+.section_2 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+}
+
+.section_2_title {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.section_2_form {
+    flex-direction: column;
+    display: flex;
+    width: 35%;
+    justify-content: space-between
+    /* border: 1px solid black; */
+}
+
+.section_2_submit {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
