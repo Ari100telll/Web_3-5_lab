@@ -8,7 +8,6 @@ const count_button = document.getElementById("count_button");
 const search_bar = document.getElementById("search_bar");
 const search_clean = document.getElementById("search_clean");
 
-
 createData();
 
 
@@ -34,3 +33,7 @@ search_clean.addEventListener("click", () => {
     cleanSearch();
     search(data);
 });
+
+function Remove() {
+    alert(1);
+}

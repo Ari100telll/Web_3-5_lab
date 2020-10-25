@@ -28,17 +28,18 @@
         <div class="section_2_title">
             <h1>Edit event</h1>
         </div>
-        <form action="" class="section_2_form">
+        <form action="" id="update_form" class="section_2_form">
             Name:
-            <input type="text"> <br>Tel. Num.:
-            <input type="tel" name="phone" pattern="+380[0-9]{9}" value="+380"><br> Duration:
-            <input type="time"><br> Price in UAH:
-            <input type="number"><br> Max count of people:
-            <input type="number"><br>
+            <input type="text" id="name"> <br>Tel. Num.:
+            <input type="tel" id="tel"><br> Duration in minutes:
+            <input type="number" id="duration"><br> Price in UAH:
+            <input type="number" id="price"><br> Max count of people:
+            <input type="number" id="max_count"><br>
             <input type="submit" class="section_2_submit" value="Edit">
 
         </form>
     </section>
+    <script src="./Scripts/update.js"></script>
 
 </body>
 
